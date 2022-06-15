@@ -1,11 +1,19 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { Provider } from 'react-redux'
+import { BrowserRouter, Routes, Route  } from 'react-router-dom'
+import store from '../redux/configureStore'
+import Greetings from './Greetings'
 
 const App = () => {
-    console.log('Homepage Hammas')
   return (
     <>
-    <span>Hello How are you</span>      
+      <Provider store={store}>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={ <Greetings/> } />
+          </Routes>
+        </BrowserRouter>
+      </Provider>
     </>
   )
 }
