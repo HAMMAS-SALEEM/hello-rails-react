@@ -1,24 +1,70 @@
-# README
+# hello-react-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Description
 
-Things you may want to cover:
+This project contains the first trial at connecting React on the front-end to Ruby-on-Rails on the backend. The app displays random messages contained in the database table on a click of a button.
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby On Rails
+- React-Rails gem
+- Rubocop
+- Git
 
-* Database creation
+## Setup
+Clone the repo and run bundle install in the command line to install the dependencies
 
-* Database initialization
+```bash
+$ git clone https://github.com/clintonjosephs/hello-rails-react.git
+$ cd hello-rails-react
+```
 
-* How to run the test suite
+## Install gems with:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+$ bundle install
+```
 
-* Deployment instructions
+## Install style linters with
+```bash
+$ npm install
+$ yarn install
+```
 
-* ...
+## Start rails server (puma)
+
+```bash
+$ rails server
+```
+
+Open [http://localhost:3000/](http://localhost:3000/) in your browser
+
+
+## Author
+
+👤 **Hammas Bin Saleem**
+
+- GitHub: [@HAMMAS-SALEEM](https://github.com/HAMMAS-SALEEM)
+- Twitter: [@HammasSaleem4](https://twitter.com/HammasSaleem4)
+- LinkedIn: [HAMMAS SALEEM](https://www.linkedin.com/in/hammas-saleem)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+See [PUBLIC](./LICENSE) license.
